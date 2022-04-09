@@ -1,0 +1,37 @@
+name: vlex
+description: A learning management system, better than flex.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/background.jpg
+
+  fonts:
+     - family: Montserrat
+       fonts:
+         - asset: fonts/Montserrat/Montserrat-Regular.ttf
+           weight: 400
+     - family: Salsa
+       fonts:
+         - asset: fonts/Salsa/Salsa-Regular.ttf
+           weight: 400
